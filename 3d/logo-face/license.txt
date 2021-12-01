@@ -1,0 +1,11 @@
+Model Information:
+* title:	Facebook logo
+* source:	https://sketchfab.com/3d-models/facebook-logo-523cd8ead4e34a4a9274f1bd9520cba5
+* author:	AgentGhost (https://sketchfab.com/AgentGhost)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Facebook logo" (https://sketchfab.com/3d-models/facebook-logo-523cd8ead4e34a4a9274f1bd9520cba5) by AgentGhost (https://sketchfab.com/AgentGhost) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
