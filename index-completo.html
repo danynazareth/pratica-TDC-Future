@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+<script src="https://cdn.rawgit.com/donmccurdy/aframe-extras/v4.2.0/dist/aframe-extras.min.js"></script>
+
+
+<body>
+ 
+  <a-scene>
+     <a-assets>
+       
+
+        <img id="timesquare"src="img/nyc.jpeg">
+        <img id="minecraft"src="img/p5-sky.jpg">
+        <img id="noite"src="img/noite.jpeg">
+        <img id="logotdc"src="img/tdc-icon.png">
+          
+         
+        
+        <a-asset-item id="face" src="3d/logo-face/scene.gltf"></a-asset-item>
+        <a-asset-item id="book" src="3d/medieval-book/scene.gltf"></a-asset-item>
+        <a-asset-item id="mark" src="3d/mark/scene.gltf"></a-asset-item>
+
+      </a-assets>
+  
+      <a-entity gltf-model="#face" scale="0.2 0.2 0.2" position="-2.41789 2.821 -2.74462" rotation="0 22.88 0"  animation="property: rotation; to: 0 360 0; loop: true; dur: 5000"></a-entity>
+      <a-sky src="#timesquare" rotation="0 -90 0"></a-sky>
+      <a-image src="#logotdc" position="0 2.8 -8.50316" scale="6 2.05 1" material="" geometry=""></a-image>
+      <a-text value="WebXR: 
+            Como Produzir Interfaces Imersivas Para O 
+            Consumo De Conteudo, Arte E Cultura Em Tempos De Pandemia" align="center" baseline="top" position="0 1 -8.87473" color="#000" scale="2 2 2" geometry="primitive: plane; width: 5.15; height: 3" material="color: rgb(255,255,255)" rotation="5 0 0" text=""> </a-text>
+
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+  </a-scene>
+</body>
+</html>
+
