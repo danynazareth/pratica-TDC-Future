@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+<script src="https://rawgit.com/rdub80/aframe-gui/master/dist/aframe-gui.min.js"></script>
+<body>
+ 
+  <a-scene>
+
+    <a-assets>
+       
+      </a-assets>
+ 
+      <a-gui-flex-container 
+      flex-direction="column" justify-content="center" align-items="normal" component-padding="0.1" opacity="0.7" width="3.5" height="4.5" 
+      panel-color="#072B73" 
+      panel-rounded="0.2"
+    position="0 2.5 -6" rotation="0 0 0"
+  >
+	<a-gui-button
+		width="2.5" 
+		height="0.7" 
+		base-depth="0.025" 
+		depth="0.1"
+		gap="0.1"
+
+		onclick="buttonActionFunction" key-code="32"
+		value="Sample Button"
+		font-family="assets/fonts/PermanentMarker-Regular.ttf"	
+		font-size="0.25"
+		margin="0 0 0.05 0"
+
+		font-color="black"
+		active-color="red"
+		hover-color="yellow"
+		border-color="white"
+		focus-color="black"
+		background-color="orange"
+
+		bevel="true"
+	>
+	</a-gui-button>
+  <a-gui-icon-button
+	height="0.75"
+	onclick="buttonActionFunction" key-code="32"
+	icon="f09b"
+	icon-font="assets/fonts/fa-brands-400.ttf"
+	margin="0 0 0.05 0"
+>
+</a-gui-icon-button>
+<a-gui-input
+	width="2.5" height="0.75"
+	onclick="inputActionFunction"
+	font-family="assets/fonts/PermanentMarker-Regular.ttf"	
+	font-size="0.2"
+	value="Hello Wor_"
+	margin="0 0 0.05 0"
+>
+</a-gui-input>
+
+  
+  </a-gui-flex-container>
+  
+    <a-camera>
+      <a-cursor></a-cursor>
+    </a-camera>
+  </a-scene>
+</body>
+</html>
